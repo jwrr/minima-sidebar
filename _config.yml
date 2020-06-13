@@ -18,11 +18,11 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Lued Text Editor
+title: Minima with Sidebar
 email: jwrr.com@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Lued is a console-based text editor.  It's mostly written in Lua (and some C).
-  It's easily configurable with Lua.
+  Minima is the default jekyll theme.  It does most of what I want, except I
+  wanted the TOC in a sidebar.  So I hacked the minima template. 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jwrr13

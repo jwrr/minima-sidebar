@@ -1,18 +1,29 @@
 ---
 layout: page
-title: Sidebar
-permalink: /sidebar-toc/
+title: Sidebar2
+permalink: /sidebar-toc2/
 ---
 
+<nav class="toc" markdown="1">
+<button class="favorite styled" type="button">
+  <a href="https://github.com/jwrr/minima-sidebar">Clone Github Repo</a>
+</button>
+
 * TOC
 {:toc}
+</nav>
 
-This example puts the Table of Contents in the Sidebar.  Just
-paste the following in your page.
+This example puts the Table of Contents in the Sidebar.  It also
+wraps the TOC in a `nav` tag so you can easily move other stuff, such as a 
+button, to the sidebar. Just paste the following in your page.
+
+Notice the `markdown=1`.  This allows markdown to be embedded in an HTML tags.
 
 ```
+<nav class="toc" markdown="1">
 * TOC
 {:toc}
+</nav>
 ```
 
 And create assets/main.scss with the following content.
@@ -23,12 +34,13 @@ And create assets/main.scss with the following content.
 
 @import "minima";
 
-div.post-content > #markdown-toc {float:right;width:30%;max-width:320px;margin-top:-100px;}
-div.post-content > #markdown-toc {list-style:none;padding-left:0;margin-left:0;}
 div.wrapper {max-width:960px;margin-left:5%;}
 div.post-content > p {width:65%;max-width:640;}
-table,hr,p,div.highlight {width:65%;max-width:640;}
+nav.toc {float:right;width:30%;max-width:320px;margin-top:-100px;}
+nav.toc ul {list-style:none;padding-left:0;margin-left:0;}
+table {width:65%;max-width:640;}
 ```
+
 
 Examples
 --------

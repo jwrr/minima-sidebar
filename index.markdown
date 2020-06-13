@@ -5,6 +5,15 @@ title : Inline TOC
 layout: home
 ---
 
+Why?
+----
+
+Minima is the default jekyll theme.  It does most of what I want. Except I
+couldn't figure out how to put the table of contents into the sidebar.  So
+I hacked the Minima theme.  There's probably better ways to do what I want,
+but this works for me.
+
+
 Table of Contents
 -----------------
 * TOC
@@ -18,9 +27,49 @@ into your page.
 {:toc}
 ```
 
-Check out [Sidebar](/sidebar-toc) and [Sidebar Fixed](/sidebar-fixed) for more 
+Examples
+--------
+Check out [Sidebar](/sidebar-toc), [Sidebar2](/sidebar-toc2) and [Sidebar Fixed](/sidebar-fixed) for more 
 examples.
 
+Jekyll Serve
+------------
+
+You can view this repo locally with the following command (I'm assuming you've
+already installed [jekyll](https://jekyllrb.com/docs/) and cloned this repo.
+
+```
+jekyll serve --trace
+```
+
+You may get an error similar to the following:
+
+```
+/usr/lib/ruby/2.7.0/bundler/runtime.rb:312:in `check_for_activated_spec!': You 
+have already activated rouge 3.20.0, but your Gemfile requires rouge 3.19.0. 
+Prepending `bundle exec` to your command may solve this. (Gem::LoadError)
+```
+
+This means the `gem.lock` file is out of date.  To fix run the following 
+command.  You may have to iterate multiple times if more than one gem is 
+out of date.
+
+```
+bundle update rouge
+```
+
+Please send me a pull request with your fix.
+
+
+Lorem Ipsum
+-----------
+
+You can ignore the following documentation.  I'm using the
+[Lued Text Editor](https://jwrr.github.io/lued/)
+documentation as Lorem Ipsum.
+
+
+<hr>
 
 
 What is it?
