@@ -1,0 +1,2 @@
+echo "STARTING JEKYLL SERVER... Please wait a few seconds"
+jekyll serve --trace --config _config.yml,_debug.yml

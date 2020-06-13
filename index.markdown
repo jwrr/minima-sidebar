@@ -1,7 +1,7 @@
 ---
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-title : Inline TOC
+title : Inline TOC Demo
 layout: home
 ---
 
@@ -16,6 +16,9 @@ but this works for me.
 <button class="favorite styled" type="button">
   <a href="https://github.com/jwrr/minima-sidebar">Clone It</a>
 </button>
+
+Below is a demonstration of the inline TOC that is available in minima. It
+takes up a significant amount of above-the-fold page space.
 
 Table of Contents
 -----------------
@@ -45,6 +48,7 @@ already installed [jekyll](https://jekyllrb.com/docs/) and cloned this repo.
 jekyll serve --trace
 ```
 
+### Load Error
 You may get an error similar to the following:
 
 ```
@@ -62,6 +66,19 @@ bundle update rouge
 ```
 
 Please send me a pull request with your fix.
+
+### Jekyll Serve Page Not Found
+This is sometimes caused when baseurl (in _config.yml) is not correct.
+When you're working on your user page (for example jwrr.github.io) then
+baseurl should be "". When you're working on a project page (for example
+jwrr.github.io/minima-sidebar) then baseurl should be "/projname" when
+the page is publically displayed on Github.  **BUT** when the page is
+being displayed locally with `jekyll serve` the baseurl should be "".
+A script, `JEKYLL_SERVE` takes care of this for you and is recommended.
+
+```
+> JEKYLL_SERVE
+```
 
 
 Lorem Ipsum
