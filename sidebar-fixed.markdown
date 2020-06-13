@@ -16,6 +16,13 @@ This example puts the Table of Contents in the Sidebar.  The sidebar
 is locked in place as you scroll up and down.  Just paste the following in 
 your page.
 
+
+<button class="favorite styled" type="button">
+  <a href="https://github.com/jwrr/minima-sidebar">Clone It</a>
+</button>
+
+
+
 ```
 <nav class="toc-fixed" markdown="1">
 * TOC

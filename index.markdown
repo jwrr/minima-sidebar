@@ -13,6 +13,9 @@ couldn't figure out how to put the table of contents into the sidebar.  So
 I hacked the Minima theme.  There's probably better ways to do what I want,
 but this works for me.
 
+<button class="favorite styled" type="button">
+  <a href="https://github.com/jwrr/minima-sidebar">Clone It</a>
+</button>
 
 Table of Contents
 -----------------
@@ -166,19 +169,6 @@ Fix it
 
 Submit your [pull requests](https://github.com/jwrr/lued/pulls). Thanks
 
-
-<hr style="margin-top:4em;">
-Other JWRR projects
--------------------
-* [carr](https://github.com/jwrr/carr) - C arrays. Support for large, dynamic
-  arrays.  Lued uses this library as it's main data store.
-* [efefomatic](https://github.com/jwrr/efefomatic) - Flat File web page cms.
-  The main [JWRR site](http://jwrr.com) is implemented using efefomatic.  It's
-  not much to look at, but it's mine.
-* [vhdl examples](https://github.com/jwrr/vhdl_examples) - Example VHDL files.
-  If you're interested in FPGAs and ASICs take a look.  I also have a
-  [Verilog tutorial](http://jwrr.com/verilog).
-* [My Gists](https://github.com/jwrr/gists) - it's easier to post here than on Github's gits site
 
 <hr style="margin-top:4em;">
 
