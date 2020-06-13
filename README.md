@@ -8,4 +8,4 @@ I want the TOC out of the way, on the sidebar.  And that's what this repo does.
 
 More docs and examples are on [Github Pages][home].
 
-[home][https://jwrr.github.io/minima-sidebar]
+[home]: https://jwrr.github.io/minima-sidebar
