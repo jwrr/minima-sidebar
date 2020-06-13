@@ -6,7 +6,7 @@ permalink: /sidebar-fixed/
 
 <nav class="toc-fixed" markdown="1">
 <button class="favorite styled" type="button">
-  <a href="https://github.com/jwrr/lued">Lued on Github</a>
+  <a href="https://github.com/jwrr/lued">Clone It</a>
 </button>
 * TOC
 {:toc}

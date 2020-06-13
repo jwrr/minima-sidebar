@@ -6,7 +6,7 @@ permalink: /sidebar-toc2/
 
 <nav class="toc" markdown="1">
 <button class="favorite styled" type="button">
-  <a href="https://github.com/jwrr/minima-sidebar">Clone Github Repo</a>
+  <a href="https://github.com/jwrr/minima-sidebar">Clone It</a>
 </button>
 
 * TOC
