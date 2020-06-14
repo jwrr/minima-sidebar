@@ -5,5 +5,8 @@ date:   2020-06-13 12:05:29 -0400
 categories: jekyll update
 ---
 
-The [JWRR Gist](https://jwrr.github.io/gists/) uses minima-sidebar to display gists 
+The following Github Pages use the Jekyll minima-sidebar theme.
+
+* [JWRR Gist](https://jwrr.github.io/gists/)
+* [VHDL Examples](https://jwrr.github.io/vhdl_examples/)
 

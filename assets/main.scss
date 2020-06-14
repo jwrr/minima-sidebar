@@ -19,8 +19,10 @@ div.wrapper {max-width:960px;margin-left:5%;}
 div.post-content > p {width:65%;max-width:640;}
 
 /* SIDEBAR WITHOUT MORE LEVELS OFTAGS */
-div.post-content > #markdown-toc {float:right;width:30%;max-width:320px;margin-top:-100px;}
+div.post-content > #markdown-toc {float:right;width:30%;max-width:320px;margin-top:-70px;}
 div.post-content > #markdown-toc {list-style:none;padding-left:0;margin-left:0;}
+div.home > #markdown-toc {float:right;width:30%;max-width:320px;margin-top:-70px;}
+div.home > #markdown-toc {list-style:none;padding-left:0;margin-left:0;}
 div.wrapper {max-width:960px;margin-left:5%;}
 div.post-content > p {width:65%;max-width:640;}
 table,hr,p,div.highlight {width:65%;max-width:640;}

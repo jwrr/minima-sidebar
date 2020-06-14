@@ -85,7 +85,7 @@ rm -rf .git
 Finally, It's time to wrap it up.
 
 ```
-git add ./Gemfile.lock ./assets/main.scss ./404.html ./index.markdown ./Gemfile ./README.md ./_config.yml
+git add Gemfile.lock assets/main.scss 404.html index.markdown Gemfile README.md _config.yml _debug.yml JEKYLL_SERVE
 git commit -m "Create Github.io Page"
 git push
 
