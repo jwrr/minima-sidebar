@@ -38,6 +38,60 @@ Examples
 Check out [Sidebar](/sidebar-toc), [Sidebar2](/sidebar-toc2) and [Sidebar Fixed](/sidebar-fixed) for more 
 examples.
 
+
+How to Use
+---------
+
+### Clone it
+If you're creating a Github.io Page for your user account then you should `git clone` and specify
+you top-level git repo, `username.github.io` where username is your Github username.
+
+```
+git clone https://github.com/jwrr/minima-sidebar username.github.io
+cd username.github.io
+```
+
+If you're creating a page for a projec then you should always specify `docs` as the repo
+destination.
+
+```
+cd your_project
+git clone https://github.com/jwrr docs
+cd docs
+```
+
+### Try it
+Run the Jekyll Server using script `JEKYLL_SERVE` and press `Ctrl+C` when done.
+
+```
+JEKYLL_SERVE
+```
+
+### Configure it
+Edit the site configuration file, `_config`, search for `FIXME` and change the 
+settings as needed.
+
+### Remove .git
+If this is your user page then skip this.  If this is a project page (in the 
+`docs` folder) then remove the `.git` folder (unless you want this as a submodule,
+which is unlikely).
+
+```
+cd docs
+rm -rf .git
+```
+
+### Git Add, Commit and Push
+Finally, It's time to wrap it up.
+
+```
+git add ./Gemfile.lock ./assets/main.scss ./404.html ./index.markdown ./Gemfile ./README.md ./_config.yml
+git commit -m "Create Github.io Page"
+git push
+
+```
+
+
 Jekyll Serve
 ------------
 
