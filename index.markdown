@@ -5,6 +5,10 @@ title : Inline TOC Demo
 layout: home
 ---
 
+* TOC
+{:toc}
+
+
 Why?
 ----
 
@@ -20,10 +24,6 @@ but this works for me.
 Below is a demonstration of the inline TOC that is available in minima. It
 takes up a significant amount of above-the-fold page space.
 
-Table of Contents
------------------
-* TOC
-{:toc}
 
 This is an example of an inline Table of contents.  Just paste the following 
 into your page.
